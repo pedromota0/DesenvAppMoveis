@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Pagina com React</title>
+
+<link rel="stylesheet" href="css/style.css" />
+
+<!-- React e ReactDOM (conforme ensinado em aula, versao development) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.3.1/umd/react.development.js" crossorigin></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.3.1/umd/react-dom.development.js" crossorigin></script>
+<!-- Babel para transpilar o JSX diretamente no navegador -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.24.7/babel.min.js"></script>
+</head>
+<body>
+
+<div id="root"></div>
+
+<!-- Cada componente em seu proprio arquivo, carregado nesta ordem.       -->
+<!-- Sem bundler/import: cada arquivo so declara uma function global.     -->
+<script type="text/babel" src="js/components/Cabecalho.js"></script>
+<script type="text/babel" src="js/components/Introducao.js"></script>
+<script type="text/babel" src="js/components/Livros.js"></script>
+<script type="text/babel" src="js/components/VideosEMapa.js"></script>
+<script type="text/babel" src="js/components/Contatos.js"></script>
+<script type="text/babel" src="js/components/Rodape.js"></script>
+<script type="text/babel" src="js/App.js"></script>
+
+</body>
+</html>
