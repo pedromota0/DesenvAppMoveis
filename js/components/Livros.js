@@ -24,17 +24,17 @@ function Livros() {
       <div className="livros-lista" style={estiloLista}>
         <img
           style={estiloImagem}
-          src="../../img/livro1.jpg"
+          src="./img/livro1.jpg"
           alt="Learning Web Design"
         />
         <img
           style={estiloImagem}
-          src="../../img/livro2.jpg"
+          src="./img/livro2.jpg"
           alt="Construindo sites com CSS e (X)HTML"
         />
         <img
           style={estiloImagem}
-          src="../../img/livro3.jpg"
+          src="./img/livro3.jpg"
           alt="JavaScript - Guia do Programador"
         />
       </div>
